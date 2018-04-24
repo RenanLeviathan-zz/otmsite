@@ -1,0 +1,21 @@
+{% extends "./base.html"%}
+{% block tabela %}
+<span id="timer"></span>
+<span class="marker"></span>
+{%for x in numbers%}
+<span class="marker" id="m{{x}}">{{x}}</span>
+{%endfor%}
+<table>
+{% for y in numbers%}
+<tr>
+<td>{{y}}</td>
+{% for x in numbers%}
+	<td class="cell" id="{{x}}_{{y}}"></td>
+{%endfor%}
+</tr>
+{% endfor%}
+</table>
+<input type="button" id="dice_roll" value="Roll"/>
+<span id="row">0</span><span id="col">0</span>
+<span id="winner"></span>
+{% endblock tabela%}

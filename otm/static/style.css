@@ -1,0 +1,40 @@
+html,body{
+	font-family: Ubuntu;
+	height: 100%;
+	width: 100%;
+	background: #eadfbe;
+}
+#container{
+	width: 200px;
+	margin: 20% auto;
+}
+table{
+	width: auto;
+	height: auto;
+}
+/*marcações dos jogadores*/
+.marker{
+	padding: 5px 5px;
+}
+.b_mark{
+	background: #0000ff;
+	color: #fff;
+}
+.a_mark{
+	background: #fff;
+}
+#row,#col{
+	padding: 2px;
+}
+.cell{
+	padding: 10px;
+	border: solid 1px black;
+}
+a{
+	display: block;
+	width: 100px;
+	height: 50px;
+	padding: 5px;
+	text-decoration: none;
+	color: black;
+}
