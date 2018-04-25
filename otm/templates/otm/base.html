@@ -1,0 +1,18 @@
+{%load static%}
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Own The Matrix</title>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" href="{% static 'style.css' %}"/>
+		<script type="text/javascript" src="{% static 'libquery_v2.1.js'%}"></script>
+		<script type="text/javascript" src="{% static 'game.js'%}" async=""></script>
+	</head>
+	<body>
+			{% block botoes %}{% endblock %}
+		{% block tabela%}
+			{% endblock tabela%}
+			{% block htp%}
+			{% endblock htp%}
+	</body>
+</html>
